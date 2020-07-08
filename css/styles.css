@@ -1,0 +1,253 @@
+/* d2232a = hexvalue (red) */
+:root {
+  --redThemeColor: #D2232A;
+  --whiteTheme: #EFEFEF;
+}
+
+
+body{
+    text-align: center;
+    background-color: var(--whiteTheme);
+}
+
+.lorem-ipsum{
+    font-style: oblique;
+}
+
+/*************** Page Container (excludes header, footer) **************/
+.page-container{
+    min-height: 100vh;
+}
+
+/*************** SECTIONS ********************/
+
+.colored-section{
+    background-color: var(--redThemeColor);
+    color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    border-width: 0;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.white-section{
+    background-color:##424242;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
+    color: black;
+
+}
+
+.section-formatting{
+    padding:2.5rem 10%;
+}
+
+/****************** SERVICES ********************/
+.services-responsive-tile{
+    padding:3px;
+}
+.services-box{
+    padding:15px;
+    border-style: groove;
+    border-radius: 10px;
+    background-color: var(--whiteTheme);
+    height:100%;
+}
+.service-image{
+    max-width:100%;
+    max-height:100%;
+    border-radius: 10px;
+}
+.service-image-container{
+    max-height:200px;
+    height:200px;
+}
+.services-title{
+    padding-bottom: 2rem;
+}
+.service-description{
+    max-width:100%;
+}
+
+
+/****************** CONTACT ********************/
+.contact-section{
+    text-align:center;
+}
+.contact-us-container{
+    display: inline-block;
+    border-style: groove;
+    border-radius: 10px;
+    background-color: var(--whiteTheme);
+    width: 30%;
+}
+
+
+/****************** ABOUT-US ********************/
+.about-us-image{
+    max-height:350px;
+    max-width:100%;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.about-us-left{
+    text-align: right;
+}
+
+.about-us-left .about-us-description{
+    padding: 0 0 0 45px;
+}
+
+.about-us-right{
+    text-align:left;
+}
+.about-us-right .about-us-description{
+    padding: 0 45px 0 0;
+}
+.about-us-list{
+    text-align:left;
+}
+.about-us-row{
+    padding:8px 10px;
+}
+
+/****************** HEADER *********************/
+.header-bar{
+    border-width: 0;
+    border-bottom-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding:5px 10%;
+}
+.nav-link{
+    color: black;
+}
+
+.logo-image{
+    height: 5rem;
+    /*background-color:var(--whiteTheme);*/
+}
+.navbar-dropdown-list{
+    text-align:right;
+}
+
+/******************* FOOTER ********************/
+footer{
+    font-size: 0.9rem;
+    padding: 20px 0;
+    min-height: 50px;
+    min-width: 100%;
+    margin:0 0 0 0;
+}
+
+h6{
+    color: var(--whiteTheme); /* fallback */
+    color:rgba(60, 60, 60, 0.5);
+    margin:0 0 0 0;
+}
+
+
+
+
+/*
+
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #A683E3;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #A683E3;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+} */
