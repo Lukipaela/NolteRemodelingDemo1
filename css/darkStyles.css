@@ -18,10 +18,12 @@ font-family: 'Josefin Slab', serif;
 body{
     text-align: center;
     background-color: var(--whiteTheme);
+    font-size:1.5rem;
 }
 
 h1, h3{
     font-family: 'Playfair Display', serif;
+    font-size:3rem;
 }
 
 h6{
@@ -31,7 +33,6 @@ h6{
 }
 
 .p{
-    font-size:1rem;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -74,6 +75,13 @@ h6{
 .section-formatting{
     padding:10% 10%;
 }
+
+
+/****************** SPLASH ********************/
+.splash-image{
+    max-width:100%;
+}
+
 
 /****************** SERVICES ********************/
 .services-responsive-tile{
