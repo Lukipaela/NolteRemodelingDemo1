@@ -20,6 +20,22 @@ body{
     background-color: var(--whiteTheme);
 }
 
+h1, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+h6{
+    color: var(--whiteTheme); /* fallback */
+    color:rgba(60, 60, 60, 0.5);
+    margin:0 0 0 0;
+}
+
+.p{
+    font-size:1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+
 .lorem-ipsum{
     font-style: oblique;
 }
@@ -166,14 +182,4 @@ footer{
     min-width: 100%;
     margin:0 0 0 0;
     font-family: 'Raleway', sans-serif;
-}
-
-h1, h3{
-    font-family: 'Playfair Display', serif;
-}
-
-h6{
-    color: var(--whiteTheme); /* fallback */
-    color:rgba(60, 60, 60, 0.5);
-    margin:0 0 0 0;
 }

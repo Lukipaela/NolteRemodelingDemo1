@@ -19,6 +19,24 @@ body{
     background-color: var(--whiteTheme);
 }
 
+h6{
+    color: var(--whiteTheme); /* fallback */
+    color:rgba(60, 60, 60, 0.5);
+    margin:0 0 0 0;
+        font-size:1rem;
+}
+
+.p{
+    font-size:1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h3{
+    font-family: 'Playfair Display', serif;
+    font-size:4rem;
+}
+
+
 .lorem-ipsum{
     font-style: oblique;
 }
@@ -50,6 +68,12 @@ body{
 
 .section-formatting{
     padding:10% 10%;
+}
+
+
+/****************** SPLASH ********************/
+.splash-image{
+    max-width:100%;
 }
 
 /****************** SERVICES ********************/
@@ -155,20 +179,6 @@ footer{
     min-height: 50px;
     min-width: 100%;
     margin:0 0 0 0;
-}
-
-h6{
-    color: var(--whiteTheme); /* fallback */
-    color:rgba(60, 60, 60, 0.5);
-    margin:0 0 0 0;
-}
-
-p{
-    font-family: 'Raleway', sans-serif;
-}
-
-h1, h3{
-    font-family: 'Playfair Display', serif;
 }
 
 /*
