@@ -19,6 +19,8 @@ body{
     text-align: center;
     background-color: var(--whiteTheme);
     font-size:1.5rem;
+    hyphens: auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1, h3{
@@ -44,6 +46,9 @@ h6{
 /*************** Page Container (excludes header, footer) **************/
 .page-container{
     min-height: 100vh;
+    background-color: #666666;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    color: black;
 }
 
 /*************** SECTIONS ********************/
@@ -60,26 +65,41 @@ h6{
 }
 
 .white-section{
-    background-color:##424242;
+    background-color: ##424242;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
     color: black;
 
 }
 
 .dark-section{
-    background-color: #000000;
-    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
-    color: black;
 }
 
 .section-formatting{
-    padding:10% 10%;
+    padding:7% 7%;
 }
 
 
 /****************** SPLASH ********************/
+.splash-container{
+    position:relative;
+}
 .splash-image{
     max-width:100%;
+    z-index: 1;
+    opacity: 80%;
+    border-radius: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.splash-text{
+    position:absolute;
+    z-index: 1;
+    left:0px;
+    top:0px;
+    color: rgba(200, 200, 200, 100);
+    margin:3%;
+    text-align:left;
 }
 
 
@@ -101,7 +121,8 @@ h6{
 }
 .service-image-container{
     max-height:200px;
-    height:200px;
+    min-height:200px;
+    max-height: 100%;
 }
 .service-title{
     padding-bottom: 2rem;
@@ -121,44 +142,69 @@ h6{
 .contact-us-container{
     display: inline-block;
     background-color: var(--whiteTheme);
-    width: 300px;
+    width:auto;
     padding:10px;
     font-family: 'Raleway', sans-serif;
 }
 
-.contact-card-border{
+.red-card-border{
     border-radius: 10px;
     border-style:solid;
-    border-width: 3px;
+    border-width: 5px;
     border-color: var(--redThemeColor);
 }
 
 
 /****************** ABOUT-US ********************/
+.about-us-text{
+    width:100%;
+    padding:10px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--whiteTheme);
+    height:100%;
+}
+
 .about-us-image{
     max-height:350px;
     max-width:100%;
-    border-radius: 10px;
+    border-radius: 100%;
     border-color: black;
     border-width: 2px;
     border-style: solid;
 }
 
-.about-us-left{
-    text-align: right;
-}
+/* styling for desk top viewports only */
+@media (min-width: 1140px) {
+    .about-us-left{
+        text-align: right;
+    }
 
+    .about-us-right{
+        text-align:left;
+    }
 
-.about-us-right{
-    text-align:left;
 }
 
 .about-us-list{
     text-align:left;
+    padding-left:15%;
+}
+
+
+.about-us-list li {
+    padding-left:5%;
+}
+
+ul {
 }
 
 .about-us-row{
-    padding:8px 10px;
+    padding:25px 5px;
+}
+
+.about-us-title{
+    margin-bottom: 10px;
 }
 
 /****************** HEADER *********************/
@@ -190,4 +236,14 @@ footer{
     min-width: 100%;
     margin:0 0 0 0;
     font-family: 'Raleway', sans-serif;
+}
+
+
+/******************* WHATS NEW ********************/
+.whats-new-container{
+    width:60%;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--whiteTheme);
+    padding:10px;
+    display: inline-block;
 }
