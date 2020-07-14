@@ -1,5 +1,4 @@
 <html lang="en" dir="ltr">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +7,7 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- locally defined css -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/darkStyles.css">
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
@@ -26,72 +25,99 @@
         <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navBar-link-menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navBar-link-menu">
+
             <ul class="navbar-nav ml-auto navbar-dropdown-list">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="#about-us" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#region" class="nav-link">Region</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about-us" class="nav-link">About Us</a>
-                </li>
-                <li class="nav-item">
                     <a href="#whats-new" class="nav-link">What's New in This Version?</a>
                 </li>
-                <li class="nav-item">
-                    <a href="darkTheme.html" class="nav-link">Dark Theme</a>
-                </li>
-
             </ul>
+
         </div>
     </nav>
 
     <div class="page-container">
 
-
         <!-- ======================== SPLASH  ======================== -->
-        <section class="section-formatting colored-section splash-section">
-            <div class="splash-image-container">
-                <img class="splash-image" src="Images/Magrann-Job-Img-4.jpg"></img>
-            </div>
+        <section class="section-formatting dark-section splash-section">
+            <div class="splash-container">
+                <img class="splash-image drop-shadows" src="Images/Magrann-Job-Img-4.jpg" alt="kitchen remodel image"></img>
+                <div class="p splash-text">
+                    Nolte Remodeling, 2020
+                    <br />
+                    (856) 912-0467
+                    <div />
+                </div>
         </section>
 
+
+
+        <hr class="separator">
 
         <!-- ======================== ABOUT US ======================== -->
-        <section class="section-formatting white-section about-us-section" id="about-us">
+        <section class="section-formatting dark-section about-us-section" id="about-us">
             <div class="container-fluid about-us-container">
                 <div class="row">
-                    <div class="col-7 about-us-row about-us-left">
-                        <h1 class="about-us-title">Who are we?</h1>
-                        <div class="p about-us-description">Owners and brothers Earl and James Nolte have been in the home construction business for decades.
-                            They have the experience and the attention to detail which will ensure that the home of your dreams can become a reality.
-                            <!--<span class="lorem-ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Odio tempor orci dapibus ultrices in iaculis nunc sed.</span>--></div>
+
+                    <div class="col-xl-7 col-12 about-us-row about-us-left">
+                        <div class="red-card-border about-us-text text-card-formatting drop-shadows">
+                            <h1 class="about-us-title">Who are we?</h1>
+                            <div class="p about-us-description">For more than 30 years, we have been perfecting custom homes and renovations.
+                                Our passion, expertise, and attention to detail are at the very heart of Nolte Remodeling.
+                                Let us show you how easy it is to make your dream home a reality today.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-12 about-us-row">
+                        <img class="about-us-image drop-shadows" src="https://www.magrannconstruction.com/wp-content/uploads/2017/08/1-10.jpg" alt="kitchen remodel image">
                     </div>
 
-                    <div class="col-5 about-us-row about-us-right">
-                        <img class="about-us-image" src="https://www.magrannconstruction.com/wp-content/uploads/2017/08/1-10.jpg" alt="kitchen remodel image">
+                    <!-- this image is presented before the text, for very large screens, and after for smaller screens -->
+                    <div class="col-xl-5 col-12 about-us-row d-none d-xl-inline-block">
+                        <img class="about-us-image drop-shadows" src="https://www.magrannconstruction.com/wp-content/uploads/2018/09/E15A1734-768x512.jpg" alt="kitchen remodel image 2">
+                    </div>
+                    <div class="col-xl-7 col-12 about-us-row about-us-right">
+                        <div class="red-card-border about-us-text text-card-formatting drop-shadows">
+                            <h1 class="about-us-title">What do we do?</h1>
+                            <ul class="about-us-list">
+                                <li>Additions</li>
+                                <li>Bathrooms</li>
+                                <li>Decks</li>
+                                <li>Doors and Windows</li>
+                                <li>Flooring</li>
+                                <li>Finished Basements</li>
+                                <li>Kitchens</li>
+                                <li>Rennovations</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-12 about-us-row  d-xl-none">
+                        <img class="about-us-image drop-shadows" src="https://www.magrannconstruction.com/wp-content/uploads/2018/09/E15A1734-768x512.jpg" alt="kitchen remodel image 2">
                     </div>
 
-
-                    <div class="col-5 about-us-row about-us-left">
-                        <img class="about-us-image" src="https://www.magrannconstruction.com/wp-content/uploads/2018/09/E15A1734-768x512.jpg" alt="kitchen remodel image 2">
+                    <div class="col-xl-7 col-12 about-us-row about-us-left">
+                        <div class="red-card-border about-us-text text-card-formatting drop-shadows" id="region">
+                            <h1 class="about-us-title">Where do we operate?</h1>
+                            <div class="p about-us-description">
+                                We are happy to satisfy your home renovation projects across South Jersey, from Mercer to Cape May.
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="col-7 about-us-row about-us-right">
-                        <h1 class="about-us-title">What do we do?</h1>
-                        <ul class="about-us-list">
-                            <li>Additions</li>
-                            <li>Bathrooms</li>
-                            <li>Decks</li>
-                            <li>Doors and Windows</li>
-                            <li>Flooring</li>
-                            <li>Finished Basements</li>
-                            <li>Kitchens</li>
-                            <li>Rennovations</li>
-                        </ul>
+                    <div class="col-xl-5 col-12 about-us-row">
+                        <img class="about-us-image drop-shadows" src="Images\Magrann-Job-Img-7.jpg" alt="kitchen remodel image 3">
                     </div>
 
                 </div>
@@ -99,54 +125,67 @@
         </section>
 
 
-        <!-- ======================== WHAT TO EXPECT ======================== -->
-        <section class="section-formatting colored-section services-section" id="what-to-expect">
+        <hr class="separator">
+
+        <!-- ======================== SERVICES ======================== -->
+        <section class="section-formatting dark-section services-section" id="services">
             <div class="container-fluid feature-container">
-                <h1 class="services-title">What to Expect</h1>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 services-responsive-tile">
-                        <div class="services-box">
+                    <div class="col-xl-3 col-lg-6 col-md-12 service-tile-shell">
+                        <div class="services-box red-card-border text-card-formatting drop-shadows">
                             <div class="service-image-container">
-                                <img class="service-image" src="https://freedesignfile.com/upload/2016/06/Simple-blueprint-building-vectors-design-08.jpg"></img>
+                                <img class="service-image" src="https://freedesignfile.com/upload/2016/06/Simple-blueprint-building-vectors-design-08.jpg" alt="Blueprint image"></img>
                             </div>
-                            <h3 class="service-title">Design and Estimation.</h3>
-                            <div class="p service-description">Tell us what you're looking for, and what you expect to spend. We will leverage our experience across hundreds of projects to help you realize your vision. Understand right up front what you
-                                should
-                                expect to spend - no hidden costs.</div>
+                            <div style="clear:both;"></div>
+                            <h3 class="service-title">Design and Estimation</h3>
+                            <div class="p service-description">Tell us what you're looking for, and what you expect to spend.
+                                We will leverage our experience across hundreds of projects to help you realize your vision.
+                                Understand right up front what you should expect to spend - no hidden costs.
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-12 services-responsive-tile">
-                        <div class="services-box">
+                    <div class="col-xl-3 col-lg-6 col-md-12 service-tile-shell">
+                        <div class="services-box red-card-border text-card-formatting drop-shadows">
                             <div class="service-image-container">
-                                <img class="service-image" src="https://organizationalexcellence.virginia.edu/sites/organizationalexcellence.virginia.edu/files/Project%20Management%20Cycle%20Framework%20V2.png"></img>
+                                <img class="service-image" src="https://organizationalexcellence.virginia.edu/sites/organizationalexcellence.virginia.edu/files/Project%20Management%20Cycle%20Framework%20V2.png" alt="project lifecycle image"></img>
                             </div>
-                            <h3 class="service-title">Project Management.</h3>
-                            <div class="p service-description">We will locate, schedule, and manage all subcontracting efforts, deliveries, and inspections. Never struggle to keep track of different teams and requirements yourself again.</div>
+                            <div style="clear:both;"></div>
+                            <h3 class="service-title">Project Management</h3>
+                            <div class="p service-description">We will locate, schedule, and manage all subcontracting efforts, deliveries,
+                                and inspections. Never struggle to keep track of different teams and requirements yourself again.
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-12 services-responsive-tile">
-                        <div class="services-box">
+                    <div class="col-xl-3 col-lg-6 col-md-12 service-tile-shell">
+                        <div class="services-box red-card-border text-card-formatting drop-shadows">
                             <div class="service-image-container">
-                                <img class="service-image" src="https://images.homedepot-static.com/productImages/25031377-3ffc-472a-98e0-6cce80a77a36/svn/homax-tarps-3142-c3_1000.jpg"></img>
+                                <img class="service-image" src="https://metromaintenance.info/site_003/wp-content/uploads/2015/02/Construction-cleanup1.jpg" alt="Cleaner image"></img>
                             </div>
-                            <h3 class="service-title">Professionalism.</h3>
-                            <div class="p service-description">Most clients experience little to no interruption of their daily lives. Let us handle the dust and debris associated with messy demolition and rennovation work, we will leave your home
-                                looking just
-                                how we would want OURS to look at the end of the day.</div>
+                            <div style="clear:both;"></div>
+                            <h3 class="service-title">Professional Courtesy</h3>
+                            <div class="p service-description">Most clients experience little to no interruption of their daily lives.
+                                Let us handle the dust and debris associated with messy demolition and rennovation work,
+                                we will leave your home looking just
+                                how we would want OURS to look at the end of the day.
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-12 services-responsive-tile">
-                        <div class="services-box">
+                    <div class="col-xl-3 col-lg-6 col-md-12 service-tile-shell">
+                        <div class="services-box red-card-border text-card-formatting drop-shadows">
                             <div class="service-image-container">
-                                <img class="service-image" src="https://lh5.googleusercontent.com/proxy/dZkvNfC3qqrJEvWEUIN4qTEcLhjroyRZS1rbmHxsqsyil6lpKoRl6jmepiqv5s0HbqJ51P5Mo9EaZN6vjzilfhyVE3IW0yt4QxN6FWQlyWGPuueN3L56BfiasmT2Kw"></img>
+                                <img class="service-image" src="https://lh5.googleusercontent.com/proxy/dZkvNfC3qqrJEvWEUIN4qTEcLhjroyRZS1rbmHxsqsyil6lpKoRl6jmepiqv5s0HbqJ51P5Mo9EaZN6vjzilfhyVE3IW0yt4QxN6FWQlyWGPuueN3L56BfiasmT2Kw"
+                                    alt="Communication image"></img>
                             </div>
-                            <h3 class="service-title">Accessibility.</h3>
-                            <div class="p service-description">We will keep you informed as to the progress and timelines of the project. All questions are answered promptly, and all messages are answered. We believe that the best way to generate
-                                satisfaction is
-                                to let the homeowner set their own level of involvement.</div>
+                            <div style="clear:both;"></div>
+                            <h3 class="service-title">Accessibility</h3>
+                            <div class="p service-description">We will keep you informed as to the progress and timelines of the project.
+                                All questions are answered promptly, and all messages are answered.
+                                We believe that the best way to generate satisfaction is
+                                to let the homeowner set their own level of involvement.
+                            </div>
                         </div>
                     </div>
 
@@ -154,26 +193,42 @@
             </div>
         </section>
 
+
+        <hr class="separator">
 
         <!-- ======================== CONTACT ======================== -->
-        <section class="section-formatting colored-section contact-section" id="contact">
-            <div class="contact-us-container">
+        <section class="section-formatting dark-section contact-section" id="contact">
+            <div class="contact-us-container red-card-border text-card-formatting drop-shadows">
                 <h1>Contact Us</h1>
                 <div class="p">Email: Earl@NolteRemodeling.com</div>
-                <div class="p">Phone: (856) 912-0467 (Earl)</div>
+                <div class="p">Phone (Earl): (856) 912-0467</div>
             </div>
         </section>
 
 
         <!-- ======================== WHATS NEW (REMOVE FOR FINAL ITERATION) ======================== -->
-        <section class="section-formatting white-section" id="whats-new">
-            <div class="contact-us-container">
+        <hr class="separator">
+        <section class="section-formatting dark-section whats-new-section" id="whats-new">
+            <div class="whats-new-container red-card-border text-card-formatting drop-shadows">
                 <h1>What's new in this version of the site? </h1>
+
+                <h3>7/13/2020</h3>
                 <ul style="text-align:left;">
-                    <li>Site version updated on 7/13/2020</li>
                     <li>Added Dark Theme edition</li>
                     <li>Added fonts</li>
+                    <li>Added home page splash image</li>
+                    <li>Added service area</li>
                 </ul>
+
+                <h3>7/14/2020</h3>
+                <ul style="text-align:left;">
+                    <li>Altered image formatting to ovals, corrected positioning on smaller devices.</li>
+                    <li>Added shadowing</li>
+                    <li>Unified spacing of content inside tiles</li>
+                    <li>Added lighter background texture</li>
+                    <li>Added page separators</li>
+                </ul>
+
             </div>
         </section>
 
@@ -181,7 +236,7 @@
 
 
     <!-- ======================== FOOTER ======================== -->
-    <footer class="colored-section">
+    <footer class="white-section">
         <h6>Nolte Remodeling Copyright 2020</h6>
         <h6>NJHIC ABCEasyAs123</h6>
     </footer>

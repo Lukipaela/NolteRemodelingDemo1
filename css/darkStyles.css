@@ -85,7 +85,7 @@ h6{
     /* background-color: #666666; */
     /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"); */
     background-color: #FFFFFF;
-background-image: url("https://www.transparenttextures.com/patterns/dark-geometric.png");
+    background-image: url("https://www.transparenttextures.com/patterns/dark-geometric.png");
     color: black;
 }
 
@@ -115,18 +115,18 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-geometr
 
 /************************************ SPLASH **************************************/
 .splash-container{
+    margin-top:10%;
     position:relative;
 }
 
 .splash-image{
     max-width:100%;
     z-index: 1;
-    opacity: 80%;
+    opacity: 100%;
     border-radius: 30px;
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    box-shadow:10px 10px 5px #101010;
 }
 
 .splash-text{
@@ -226,6 +226,7 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-geometr
 /************************************ CONTACT **************************************/
 .contact-section{
     text-align:center;
+    padding-bottom:10%;
 }
 
 .contact-us-container{
@@ -252,12 +253,15 @@ footer{
     padding:5%;
 }
 
+.drop-shadows{
+    box-shadow:6px 6px 10px #000000;
+}
+
 .red-card-border{
     border-radius: 10px;
     border-style:solid;
     border-width: 5px;
     border-color: var(--redThemeColor);
-    box-shadow:10px 10px 5px #101010;
 }
 
 .separator{
@@ -271,7 +275,10 @@ footer{
 /************************************* WHATS NEW **************************************/
 .whats-new-container{
     max-width:90%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rokkitt', sans-serif;
     background-color: var(--whiteTheme);
     display: inline-block;
+}
+.whats-new-section{    
+    padding-bottom:10%;
 }
