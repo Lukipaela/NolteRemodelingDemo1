@@ -38,176 +38,12 @@ h6{
     font-family: 'Raleway', sans-serif;
 }
 
-
 .lorem-ipsum{
     font-style: oblique;
 }
 
-/*************** Page Container (excludes header, footer) **************/
-.page-container{
-    min-height: 100vh;
-    background-color: #666666;
-    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
-    color: black;
-}
 
-/*************** SECTIONS ********************/
-
-.colored-section{
-    background-color: var(--redThemeColor);
-    color: black;
-    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-    border-width: 0;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-    border-color: black;
-    border-style: solid;
-}
-
-.white-section{
-    background-color: ##424242;
-    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
-    color: black;
-
-}
-
-.dark-section{
-}
-
-.section-formatting{
-    padding:7% 7%;
-}
-
-
-/****************** SPLASH ********************/
-.splash-container{
-    position:relative;
-}
-.splash-image{
-    max-width:100%;
-    z-index: 1;
-    opacity: 80%;
-    border-radius: 30px;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-}
-.splash-text{
-    position:absolute;
-    z-index: 1;
-    left:0px;
-    top:0px;
-    color: rgba(200, 200, 200, 100);
-    margin:3%;
-    text-align:left;
-}
-
-
-/****************** SERVICES ********************/
-.services-responsive-tile{
-    padding:3px;
-}
-.services-box{
-    padding:15px;
-    /* border-style: groove; */
-    border-radius: 10px;
-    background-color: var(--whiteTheme);
-    height:100%;
-}
-.service-image{
-    max-width:100%;
-    max-height:100%;
-    border-radius: 10px;
-}
-.service-image-container{
-    max-height:200px;
-    min-height:200px;
-    max-height: 100%;
-}
-.service-title{
-    padding-bottom: 2rem;
-    word-wrap:break-word;
-    max-width:100%
-}
-.service-description{
-    max-width:100%;
-    font-family: 'Raleway', sans-serif;
-}
-
-
-/****************** CONTACT ********************/
-.contact-section{
-    text-align:center;
-}
-.contact-us-container{
-    display: inline-block;
-    background-color: var(--whiteTheme);
-    width:auto;
-    padding:10px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.red-card-border{
-    border-radius: 10px;
-    border-style:solid;
-    border-width: 5px;
-    border-color: var(--redThemeColor);
-}
-
-
-/****************** ABOUT-US ********************/
-.about-us-text{
-    width:100%;
-    padding:10px;
-    display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    background-color: var(--whiteTheme);
-    height:100%;
-}
-
-.about-us-image{
-    max-height:350px;
-    max-width:100%;
-    border-radius: 100%;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-}
-
-/* styling for desk top viewports only */
-@media (min-width: 1200px) {
-    .about-us-left{
-        text-align: right;
-    }
-
-    .about-us-right{
-        text-align:left;
-    }
-
-}
-
-.about-us-list{
-    text-align:left;
-    padding-left:15%;
-}
-
-
-.about-us-list li {
-    padding-left:5%;
-}
-
-ul {
-}
-
-.about-us-row{
-    padding:25px 5px;
-}
-
-.about-us-title{
-    margin-bottom: 10px;
-}
-
-/****************** HEADER *********************/
+/************************************ HEADER ***************************************/
 .header-bar{
     border-width: 0;
     border-bottom-width: 2px;
@@ -240,7 +76,165 @@ ul {
     text-align:right;
 }
 
-/******************* FOOTER ********************/
+
+/******************************** Page Container (excludes header, footer) ********************************/
+.page-container{
+    min-height: 100vh;
+    /* background-color: #666666; */
+    /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"); */
+    background-color: #FFFFFF;
+background-image: url("https://www.transparenttextures.com/patterns/dark-geometric.png");
+    color: black;
+}
+
+
+/********************************* SECTIONS **************************************/
+.colored-section{
+    background-color: var(--redThemeColor);
+    color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    border-width: 0;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.white-section{
+    background-color: ##424242;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
+    color: black;
+}
+
+.section-formatting{
+    padding:3% 7%;
+}
+
+
+/************************************ SPLASH **************************************/
+.splash-container{
+    position:relative;
+}
+
+.splash-image{
+    max-width:100%;
+    z-index: 1;
+    opacity: 80%;
+    border-radius: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow:10px 10px 5px #101010;
+}
+
+.splash-text{
+    position:absolute;
+    z-index: 1;
+    left:0px;
+    top:0px;
+    color: rgba(200, 200, 200, 100);
+    margin:3%;
+    text-align:left;
+}
+
+
+/************************************ ABOUT-US **************************************/
+.about-us-text{
+    width:100%;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--whiteTheme);
+    height:100%;
+}
+
+.about-us-image{
+    max-height:350px;
+    max-width:100%;
+    border-radius: 100%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow:10px 10px 5px #101010;
+}
+
+/* styling for desk top viewports only */
+@media (min-width: 1200px) {
+    .about-us-left{
+        text-align: right;
+    }
+
+    .about-us-right{
+        text-align:left;
+    }
+
+}
+
+.about-us-list{
+    text-align:left;
+    padding-left:15%;
+}
+
+.about-us-list li {
+    padding-left:5%;
+}
+
+.about-us-row{
+    padding:25px 5px;
+}
+
+.about-us-title{
+    margin-bottom: 10px;
+}
+
+
+/************************************ SERVICES **************************************/
+.services-box{
+    border-radius: 10px;
+    background-color: var(--whiteTheme);
+    height:100%;
+}
+.service-tile-shell{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.service-image{
+    max-width:100%;
+    max-height:100%;
+    border-radius: 10px;
+}
+
+.service-image-container{
+    max-height:200px;
+    min-height:200px;
+    max-height: 100%;
+}
+
+.service-title{
+    padding-bottom: 2rem;
+    word-wrap:break-word;
+    max-width:100%
+}
+
+.service-description{
+    max-width:100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/************************************ CONTACT **************************************/
+.contact-section{
+    text-align:center;
+}
+
+.contact-us-container{
+    display: inline-block;
+    background-color: var(--whiteTheme);
+    width:auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/************************************* FOOTER **************************************/
 footer{
     font-size: 0.9rem;
     padding: 20px 0;
@@ -251,11 +245,31 @@ footer{
 }
 
 
-/******************* WHATS NEW ********************/
+/************************************* GENERICS **************************************/
+.text-card-formatting{
+    padding:5%;
+}
+
+.red-card-border{
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: var(--redThemeColor);
+    box-shadow:10px 10px 5px #101010;
+}
+
+.separator{
+    border-top-style: dotted;
+    border-top-color: var(--redThemeColor);
+    border-top-width:0.5rem;
+    width: 15%;
+    margin: 10% auto;
+}
+
+/************************************* WHATS NEW **************************************/
 .whats-new-container{
-    width:60%;
+    max-width:90%;
     font-family: 'Raleway', sans-serif;
     background-color: var(--whiteTheme);
-    padding:10px;
     display: inline-block;
 }

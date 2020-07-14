@@ -26,13 +26,14 @@
         <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navBar-link-menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navBar-link-menu">
             <ul class="navbar-nav ml-auto navbar-dropdown-list">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about-us" class="nav-link">About Us</a>
+                    <a href="#about-us" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="#services" class="nav-link">Services</a>
@@ -59,7 +60,7 @@
         <!-- ======================== SPLASH  ======================== -->
         <section class="section-formatting dark-section splash-section">
             <div class="splash-container">
-                <img class="splash-image" src="Images/Magrann-Job-Img-4.jpg"></img>
+                <img class="splash-image" src="Images/Magrann-Job-Img-4.jpg" alt="kitchen remodel image"></img>
                 <div class="p splash-text">
                     Nolte Remodeling, 2020
                     <br/>
@@ -69,13 +70,16 @@
         </section>
 
 
+
+        <hr class="separator">
+
         <!-- ======================== ABOUT US ======================== -->
         <section class="section-formatting dark-section about-us-section" id="about-us">
             <div class="container-fluid about-us-container">
                 <div class="row">
 
                     <div class="col-xl-7 col-12 about-us-row about-us-left">
-                        <div class="red-card-border about-us-text">
+                        <div class="red-card-border about-us-text text-card-formatting">
                             <h1 class="about-us-title">Who are we?</h1>
                             <div class="p about-us-description">For more than 30 years, we have been perfecting custom homes and renovations.
                                 Our passion, expertise, and attention to detail are at the very heart of Nolte Remodeling.
@@ -87,11 +91,12 @@
                         <img class="about-us-image" src="https://www.magrannconstruction.com/wp-content/uploads/2017/08/1-10.jpg" alt="kitchen remodel image">
                     </div>
 
+                    <!-- this image is presented before the text, for very large screens, and after for smaller screens -->
                     <div class="col-xl-5 col-12 about-us-row d-none d-xl-inline-block">
                         <img class="about-us-image" src="https://www.magrannconstruction.com/wp-content/uploads/2018/09/E15A1734-768x512.jpg" alt="kitchen remodel image 2">
                     </div>
                     <div class="col-xl-7 col-12 about-us-row about-us-right">
-                        <div class="red-card-border about-us-text">
+                        <div class="red-card-border about-us-text text-card-formatting">
                             <h1 class="about-us-title">What do we do?</h1>
                             <ul class="about-us-list">
                                 <li>Additions</li>
@@ -110,7 +115,7 @@
                     </div>
 
                     <div class="col-xl-7 col-12 about-us-row about-us-left">
-                        <div class="red-card-border about-us-text" id="region">
+                        <div class="red-card-border about-us-text text-card-formatting" id="region">
                             <h1 class="about-us-title">Where do we operate?</h1>
                             <div class="p about-us-description">
                                 We are happy to satisfy your home renovation projects across South Jersey, from Mercer to Cape May.
@@ -126,12 +131,14 @@
         </section>
 
 
-        <!-- ======================== WHAT TO EXPECT ======================== -->
+        <hr class="separator">
+
+        <!-- ======================== SERVICES ======================== -->
         <section class="section-formatting dark-section services-section" id="services">
             <div class="container-fluid feature-container">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-6 col-md-12 services-responsive-tile">
-                        <div class="services-box red-card-border">
+                    <div class="col-xl-3 col-lg-6 col-md-12 service-tile-shell">
+                        <div class="services-box red-card-border text-card-formatting">
                             <div class="service-image-container">
                                 <img class="service-image" src="https://freedesignfile.com/upload/2016/06/Simple-blueprint-building-vectors-design-08.jpg" alt="Blueprint image"></img>
                             </div>
@@ -144,8 +151,8 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-6 col-md-12 services-responsive-tile">
-                        <div class="services-box red-card-border">
+                    <div class="col-xl-3 col-lg-6 col-md-12 service-tile-shell">
+                        <div class="services-box red-card-border text-card-formatting">
                             <div class="service-image-container">
                                 <img class="service-image" src="https://organizationalexcellence.virginia.edu/sites/organizationalexcellence.virginia.edu/files/Project%20Management%20Cycle%20Framework%20V2.png" alt="project lifecycle image"></img>
                             </div>
@@ -157,8 +164,8 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-6 col-md-12 services-responsive-tile">
-                        <div class="services-box red-card-border">
+                    <div class="col-xl-3 col-lg-6 col-md-12 service-tile-shell">
+                        <div class="services-box red-card-border text-card-formatting">
                             <div class="service-image-container">
                                 <img class="service-image" src="https://metromaintenance.info/site_003/wp-content/uploads/2015/02/Construction-cleanup1.jpg" alt="Cleaner image"></img>
                             </div>
@@ -167,12 +174,13 @@
                             <div class="p service-description">Most clients experience little to no interruption of their daily lives.
                                 Let us handle the dust and debris associated with messy demolition and rennovation work,
                                 we will leave your home looking just
-                                how we would want OURS to look at the end of the day.</div>
+                                how we would want OURS to look at the end of the day.
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-6 col-md-12 services-responsive-tile">
-                        <div class="services-box red-card-border">
+                    <div class="col-xl-3 col-lg-6 col-md-12 service-tile-shell">
+                        <div class="services-box red-card-border text-card-formatting">
                             <div class="service-image-container">
                                 <img class="service-image" src="https://lh5.googleusercontent.com/proxy/dZkvNfC3qqrJEvWEUIN4qTEcLhjroyRZS1rbmHxsqsyil6lpKoRl6jmepiqv5s0HbqJ51P5Mo9EaZN6vjzilfhyVE3IW0yt4QxN6FWQlyWGPuueN3L56BfiasmT2Kw" alt="Communication image"></img>
                             </div>
@@ -191,28 +199,41 @@
         </section>
 
 
+        <hr class="separator">
 
         <!-- ======================== CONTACT ======================== -->
         <section class="section-formatting dark-section contact-section" id="contact">
-            <div class="contact-us-container red-card-border">
+            <div class="contact-us-container red-card-border text-card-formatting">
                 <h1>Contact Us</h1>
                 <div class="p">Email: Earl@NolteRemodeling.com</div>
-                <div class="p">Phone: (856) 912-0467 (Earl)</div>
+                <div class="p">Phone (Earl): (856) 912-0467</div>
             </div>
         </section>
 
 
         <!-- ======================== WHATS NEW (REMOVE FOR FINAL ITERATION) ======================== -->
+        <hr class="separator">
         <section class="section-formatting dark-section" id="whats-new">
-            <div class="whats-new-container red-card-border">
+            <div class="whats-new-container red-card-border text-card-formatting">
                 <h1>What's new in this version of the site? </h1>
+
+                <h3>7/13/2020</h3>
                 <ul style="text-align:left;">
-                    <li>Site version updated on 7/13/2020</li>
                     <li>Added Dark Theme edition</li>
                     <li>Added fonts</li>
                     <li>Added home page splash image</li>
                     <li>Added service area</li>
                 </ul>
+
+                <h3>7/14/2020</h3>
+                <ul style="text-align:left;">
+                    <li>Altered image formatting to ovals, correcgted positioning on smaller devices.</li>
+                    <li>Added shadowing</li>
+                    <li>Unified spacing of content inside tiles</li>
+                    <li>Added lighter background texture</li>
+                    <li>Added page separators</li>
+                </ul>
+
             </div>
         </section>
 
