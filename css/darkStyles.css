@@ -175,7 +175,7 @@ h6{
 }
 
 /* styling for desk top viewports only */
-@media (min-width: 1140px) {
+@media (min-width: 1200px) {
     .about-us-left{
         text-align: right;
     }
@@ -220,10 +220,22 @@ ul {
     color: black;
 }
 
-.logo-image{
-    height: 5rem;
-    /*background-color:var(--whiteTheme);*/
+/* large display format */
+@media (min-width: 1200px) {
+    .logo-image{
+        height: 5rem;
+        /*background-color:var(--whiteTheme);*/
+    }
 }
+
+/* Small display format */
+@media (max-width: 1199px) {
+    .logo-image{
+        height: 3rem;
+        /*background-color:var(--whiteTheme);*/
+    }
+}
+
 .navbar-dropdown-list{
     text-align:right;
 }
