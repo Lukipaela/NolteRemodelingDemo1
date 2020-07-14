@@ -18,24 +18,26 @@ font-family: 'Josefin Slab', serif;
 body{
     text-align: center;
     background-color: var(--whiteTheme);
-    font-size:1.5rem;
+    font-size:1rem;
     hyphens: auto;
     font-family: 'Raleway', sans-serif;
 }
 
 h1, h3{
     font-family: 'Playfair Display', serif;
-    font-size:3rem;
+    font-size:2rem;
 }
 
 h6{
     color: var(--whiteTheme); /* fallback */
     color:rgba(60, 60, 60, 0.5);
     margin:0 0 0 0;
+    font-size:1rem;
 }
 
 .p{
     font-family: 'Raleway', sans-serif;
+    font-size:1rem;
 }
 
 .lorem-ipsum{
