@@ -19,40 +19,46 @@
 
 <body>
     <!-- ======================== HEADER ======================== -->
-    <nav class="navbar navbar-expand-lg header-bar white-section">
-        <a href="index.html" class="navbar-brand"><img src="Images/NR_Horizontal.png" alt="Nolte Remodeling Logo" class="logo-image"></a>
+    <nav class="navbar navbar-expand-lg header-bar white-section fixed-top bg-light">
+        <div class="container">
 
-        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navBar-link-menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <a href="index.html" class="navbar-brand"><img src="Images/NR_Horizontal.png" alt="Nolte Remodeling Logo" class="logo-image"></a>
 
-        <div class="collapse navbar-collapse" id="navBar-link-menu">
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navBar-link-menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <ul class="navbar-nav ml-auto navbar-dropdown-list">
-                <li class="nav-item">
-                    <a href="#about-us" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#region" class="nav-link">Region</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#services" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#whats-new" class="nav-link">What's New in This Version?</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navBar-link-menu">
 
+                <ul class="navbar-nav ml-auto navbar-dropdown-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-us" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#region" class="nav-link">Region</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#whats-new" class="nav-link">What's New in This Version?</a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
     </nav>
 
     <div class="page-container">
 
         <!-- ======================== SPLASH  ======================== -->
-        <section class="section-formatting dark-section splash-section">
+        <section class="section-formatting dark-section splash-section" id="home">
             <div class="splash-container">
                 <img class="splash-image drop-shadows" src="Images/Magrann-Job-Img-4.jpg" alt="kitchen remodel image"></img>
                 <div class="p splash-text">
@@ -214,7 +220,7 @@
 
                 <h3>7/13/2020</h3>
                 <ul style="text-align:left;">
-                    <li>Added Dark Theme edition</li>
+                    <li>Added Dark Theme edition (depricated)</li>
                     <li>Added fonts</li>
                     <li>Added home page splash image</li>
                     <li>Added service area</li>
@@ -225,8 +231,10 @@
                     <li>Altered image formatting to ovals, corrected positioning on smaller devices.</li>
                     <li>Added shadowing</li>
                     <li>Unified spacing of content inside tiles</li>
-                    <li>Added lighter background texture</li>
                     <li>Added page separators</li>
+                    <li>Removed colored page, replaced completely with grey theme</li>
+                    <li>Set header bar to follow screen while you scroll, so links are always available</li>
+                    <li>Added smooth scrolling  when links in the header are clicked</li>
                 </ul>
 
             </div>
