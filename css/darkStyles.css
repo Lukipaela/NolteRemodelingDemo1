@@ -58,15 +58,13 @@ h6{
     color: black;
 }
 
-/* large display format */
+/* .logo-image */
 @media (min-width: 1200px) {
     .logo-image{
         height: 5rem;
         /*background-color:var(--whiteTheme);*/
     }
 }
-
-/* Small display format */
 @media (max-width: 1199px) {
     .logo-image{
         height: 3rem;
@@ -108,15 +106,28 @@ h6{
     color: black;
 }
 
-.section-formatting{
-    padding:3% 7%;
+/* .section-formatting */
+@media (min-width: 1200px) {
+    .section-formatting{
+        padding: 12rem 3% 7%;
+    }
+}
+@media (max-width: 1199px) {
+    .section-formatting{
+        padding: 10rem 3% 7%;
+    }
+}
+@media (max-width: 800px) {
+    .section-formatting{
+        padding: 8rem 3% 7%;
+    }
 }
 
 
 /************************************ SPLASH **************************************/
 .splash-container{
-    margin-top:10%;
     position:relative;
+    display: inline-block;
 }
 
 .splash-image{
@@ -132,7 +143,7 @@ h6{
 .splash-text{
     position:absolute;
     z-index: 1;
-    left:0px;
+    left:;
     top:0px;
     color: rgba(200, 200, 200, 100);
     margin:3%;
