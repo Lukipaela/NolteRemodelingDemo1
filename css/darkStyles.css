@@ -196,6 +196,12 @@ h6{
     height: min-content;
 }
 
+.services-row{
+    height: -moz-min-content;    /* Firefox */
+    height: -webkit-min-content; /* Chrome */
+    height: min-content;
+}
+
 .services-box{
     border-radius: 10px;
     background-color: var(--whiteTheme);
