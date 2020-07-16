@@ -210,6 +210,8 @@ h6{
 .service-tile-shell{
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color:rgba(0, 0, 0, 0);
+    border-style: none;
 }
 
 .service-image{
@@ -283,7 +285,7 @@ footer{
     border-top-color: var(--redThemeColor);
     border-top-width:0.5rem;
     width: 15%;
-    margin: 10% auto;
+    margin: 5rem auto;
     margin-bottom: 0;
 }
 
