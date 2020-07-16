@@ -78,7 +78,7 @@
             <div class="container-fluid about-us-container">
                 <div class="row">
 
-                    <div class="col-xl-7 col-12 about-us-row about-us-left">
+                    <div class="col-xl-7 col-12 about-us-row about-us-left d-flex">
                         <div class="red-card-border about-us-text text-card-formatting drop-shadows">
                             <h1 class="about-us-title">Who are we?</h1>
                             <div class="p about-us-description">For more than 30 years, we have been perfecting custom homes and renovations.
@@ -87,16 +87,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-12 about-us-row">
+                    <div class="col-xl-5 col-12 about-us-row d-flex">
                         <img class="about-us-image drop-shadows" src="https://www.magrannconstruction.com/wp-content/uploads/2017/08/1-10.jpg" alt="kitchen remodel image">
                     </div>
 
 
                     <!-- this image is presented before the text, for very large screens, and after for smaller screens -->
-                    <div class="col-xl-5 col-12 about-us-row d-none d-xl-inline-block">
+                    <div class="col-xl-5 col-12 about-us-row d-none d-xl-inline-block d-flex">
                         <img class="about-us-image drop-shadows" src="https://www.magrannconstruction.com/wp-content/uploads/2018/09/E15A1734-768x512.jpg" alt="kitchen remodel image 2">
                     </div>
-                    <div class="col-xl-7 col-12 about-us-row about-us-right">
+                    <div class="col-xl-7 col-12 about-us-row about-us-right d-flex">
                         <div class="red-card-border about-us-text text-card-formatting drop-shadows">
                             <h1 class="about-us-title">What do we do?</h1>
                             <ul class="about-us-list">
@@ -114,11 +114,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-12 about-us-row  d-xl-none">
+                    <div class="col-xl-5 col-12 about-us-row  d-xl-none d-flex">
                         <img class="about-us-image drop-shadows" src="https://www.magrannconstruction.com/wp-content/uploads/2018/09/E15A1734-768x512.jpg" alt="kitchen remodel image 2">
                     </div>
 
-                    <div class="col-xl-7 col-12 about-us-row about-us-left">
+                    <div class="col-xl-7 col-12 about-us-row about-us-left d-flex">
                         <div class="red-card-border about-us-text text-card-formatting drop-shadows">
                             <h1 class="about-us-title">Where do we operate?</h1>
                             <div class="p about-us-description">
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-12 about-us-row">
+                    <div class="col-xl-5 col-12 about-us-row d-flex">
                         <img class="about-us-image drop-shadows" src="Images\Magrann-Job-Img-7.jpg" alt="kitchen remodel image 3">
                     </div>
 
@@ -142,7 +142,7 @@
             <div class="container-fluid services-row row">
 
                 <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 service-tile-shell">
-                    <div class="services-box red-card-border text-card-formatting drop-shadows card">
+                    <div class="services-box red-card-border text-card-formatting drop-shadows card d-flex">
                         <!-- <div class="service-image-container"> -->
                             <img class="service-image card-img-top" src="https://freedesignfile.com/upload/2016/06/Simple-blueprint-building-vectors-design-08.jpg" alt="Blueprint image"></img>
                         <!-- </div> -->
@@ -157,7 +157,7 @@
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 service-tile-shell">
-                    <div class="services-box red-card-border text-card-formatting drop-shadows card">
+                    <div class="services-box red-card-border text-card-formatting drop-shadows card d-flex">
                         <!-- <div class="service-image-container"> -->
                             <img class="service-image card-img-top" src="https://organizationalexcellence.virginia.edu/sites/organizationalexcellence.virginia.edu/files/Project%20Management%20Cycle%20Framework%20V2.png" alt="project lifecycle image"></img>
                         <!-- </div> -->
@@ -171,7 +171,7 @@
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 service-tile-shell">
-                    <div class="services-box red-card-border text-card-formatting drop-shadows card">
+                    <div class="services-box red-card-border text-card-formatting drop-shadows card d-flex">
                         <!-- <div class="service-image-container"> -->
                             <img class="service-image card-img-top" src="https://metromaintenance.info/site_003/wp-content/uploads/2015/02/Construction-cleanup1.jpg" alt="Cleaner image"></img>
                         <!-- </div> -->
@@ -187,7 +187,7 @@
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 service-tile-shell">
-                    <div class="services-box red-card-border text-card-formatting drop-shadows card">
+                    <div class="services-box red-card-border text-card-formatting drop-shadows card d-flex">
                         <!-- <div class="service-image-container"> -->
                             <img class="service-image card-img-top" src="https://lh5.googleusercontent.com/proxy/dZkvNfC3qqrJEvWEUIN4qTEcLhjroyRZS1rbmHxsqsyil6lpKoRl6jmepiqv5s0HbqJ51P5Mo9EaZN6vjzilfhyVE3IW0yt4QxN6FWQlyWGPuueN3L56BfiasmT2Kw"
                                 alt="Communication image"></img>
@@ -248,7 +248,10 @@
                 <ul style="text-align:left;">
                     <li>Fixed issue where sticky header covers the beginning of sections when using the links in the header menu</li>
                     <li>Made hamburger menu collapse after clicking a link.</li>
-                    <li>Fixed tile whitespace issue appearing on apple devices (giant blocks of empty white space appearing beneath some text because apple is dumb) - nevermind, still dumb.</li>
+                    <li>Fixed tile whitespace issue appearing on apple devices
+                        (giant blocks of empty white space appearing beneath some text because apple is dumb)
+                         - nevermind, still dumb.
+                     fixed?</li>
                 </ul>
 
                 <h3>TO DO</h3>
