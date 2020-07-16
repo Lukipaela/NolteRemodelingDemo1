@@ -157,7 +157,7 @@ h6{
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     background-color: var(--whiteTheme);
-    height:100%;
+    /* height:100%; */
 }
 
 .about-us-image{
@@ -201,18 +201,6 @@ h6{
 
 
 /************************************ SERVICES **************************************/
-.services-section{
-    height: -moz-min-content;    /* Firefox */
-    height: -webkit-min-content; /* Chrome */
-    height: min-content;
-}
-
-.services-row{
-    height: -moz-min-content;    /* Firefox */
-    height: -webkit-min-content; /* Chrome */
-    height: min-content;
-}
-
 .services-box{
     border-radius: 10px;
     background-color: var(--whiteTheme);
