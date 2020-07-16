@@ -284,6 +284,7 @@ footer{
     border-top-width:0.5rem;
     width: 15%;
     margin: 10% auto;
+    margin-bottom: 0;
 }
 
 /************************************* WHATS NEW **************************************/
