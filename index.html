@@ -12,17 +12,21 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@500;600&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600;700&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
     <!-- ======================== HEADER ======================== -->
     <nav class="navbar navbar-expand-lg header-bar white-section fixed-top bg-light">
-        <div class="container">
-
-            <a href="index.html" class="navbar-brand"><img src="Images/NR_Horizontal.png" alt="Nolte Remodeling Logo" class="logo-image"></a>
+        <div class="container header-container">
+            <div class="class="navbar-brand"">
+                <a href="index.html">
+                    <img src="Images/Logos/nr-logo-full.png" alt="Nolte Remodeling Logo" class="logo-image">
+                </a>
+                <div class="p">(856) 912-0467</div>
+            </div>
 
             <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navBar-link-menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,18 +40,15 @@
                     </li>
                     <li class="nav-item">
                         <a href="#about-us" class="nav-link">About</a>
-                    </li>
+                    <!-- </li>
                     <li class="nav-item">
                         <a href="#region" class="nav-link">Region</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a href="#services" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#whats-new" class="nav-link">What's New in This Version?</a>
                     </li>
                 </ul>
 
@@ -58,16 +59,60 @@
     <div class="page-container">
 
         <!-- ======================== SPLASH  ======================== -->
-        <section class="section-formatting dark-section splash-section" id="home">
-            <div class="splash-container">
-                <img class="splash-image drop-shadows" src="Images/Magrann-Job-Img-4.jpg" alt="kitchen remodel image"></img>
-                <div class="p splash-text">
-                    Nolte Remodeling, 2020
-                    <br />
-                    (856) 912-0467
-                <div />
-            </div>
-        </section>
+
+            <section class="carousel-section section-formatting" id="home">
+                <div id="carousel-controls" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-controls" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-controls" data-slide-to="1"></li>
+                        <li data-target="#carousel-controls" data-slide-to="2"></li>
+                        <li data-target="#carousel-controls" data-slide-to="3"></li>
+                        <li data-target="#carousel-controls" data-slide-to="4"></li>
+                      </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="carousel-image" src="Images/Job-Photos/kitchen-1.jpg" alt="kitchen remodel image">
+                            <div class="carousel-caption">
+                                <h2 class="carousel-text carousel-caption">Kitchen Job 1</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="carousel-image" src="Images/Job-Photos/bathroom-1.jpg" alt="bathroom remodel image">
+                            <div class="carousel-caption">
+                                <h2 class="carousel-text carousel-caption">Bathroom Job 1</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="carousel-image" src="Images/Job-Photos/built-in-1.jpg" alt="Built-In image">
+                            <div class="carousel-caption">
+                                <h2 class="carousel-text carousel-caption">Built-In Job 1</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="carousel-image" src="Images/Job-Photos/fireplace-1.jpg" alt="fireplace remodel image">
+                            <div class="carousel-caption">
+                                <h2 class="carousel-text carousel-caption">Fireplace Job 1</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="carousel-image" src="Images/Job-Photos/play-house.jpg" alt="PlayHouse image">
+                            <div class="carousel-caption">
+                                <h2 class="carousel-text">PlayHouse Job 1</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel-controls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-controls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div class="p carousel-subtitle">
+                    * Images from work completed by owners of Nolte Remodeling, under the now-defunct company MaGrann Construction
+                </div>
+            </section>
 
 
 
@@ -79,27 +124,27 @@
                 <div class="row">
 
                     <div class="col-xl-7 col-12 about-us-row about-us-left my-auto">
-                        <div class="red-card-border about-us-text text-card-formatting drop-shadows">
+                        <div class="about-us-text">
                             <h1 class="about-us-title">Who are we?</h1>
-                            <div class="p about-us-description">For more than 30 years, we have been perfecting custom homes and renovations.
+                            <div class="p about-us-description text-bare">For more than 30 years, we have been perfecting custom homes and renovations.
                                 Our passion, expertise, and attention to detail are at the very heart of Nolte Remodeling.
                                 Let us show you how easy it is to make your dream home a reality today.
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-5 col-12 about-us-row">
-                        <img class="about-us-image drop-shadows" src="https://www.magrannconstruction.com/wp-content/uploads/2017/08/1-10.jpg" alt="kitchen remodel image">
+                        <img class="about-us-image drop-shadows" src="Images/Job-Photos/built-in-2.jpg" alt="bathroom built-in image">
                     </div>
 
 
                     <!-- this image is presented before the text, for very large screens, and after for smaller screens -->
                     <div class="col-xl-5 col-12 about-us-row d-none d-xl-inline-block">
-                        <img class="about-us-image drop-shadows" src="https://www.magrannconstruction.com/wp-content/uploads/2018/09/E15A1734-768x512.jpg" alt="kitchen remodel image 2">
+                        <img class="about-us-image drop-shadows" src="Images/Job-Photos/kitchen-2.jpg" alt="kitchen remodel image 2">
                     </div>
                     <div class="col-xl-7 col-12 about-us-row about-us-right my-auto">
-                        <div class="red-card-border about-us-text text-card-formatting drop-shadows">
+                        <div class="about-us-text">
                             <h1 class="about-us-title">What do we do?</h1>
-                            <ul class="about-us-list">
+                            <ul class="about-us-list text-bare">
                                 <li>Additions</li>
                                 <li>Bathrooms</li>
                                 <li>Decks</li>
@@ -109,25 +154,22 @@
                                 <li>Kitchens</li>
                                 <li>Rennovations</li>
                             </ul>
-                            <div  id="region">
-                                <!-- this div is placed unusually intentionally  -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-12 about-us-row  d-xl-none">
-                        <img class="about-us-image drop-shadows" src="https://www.magrannconstruction.com/wp-content/uploads/2018/09/E15A1734-768x512.jpg" alt="kitchen remodel image 2">
+                    <div class="col-xl-5 col-12 about-us-row d-xl-none">
+                        <img class="about-us-image drop-shadows" src="Images/Job-Photos/kitchen-2.jpg" alt="kitchen remodel image 2">
                     </div>
 
                     <div class="col-xl-7 col-12 about-us-row about-us-left my-auto">
-                        <div class="red-card-border about-us-text text-card-formatting drop-shadows">
+                        <div class="about-us-text">
                             <h1 class="about-us-title">Where do we operate?</h1>
-                            <div class="p about-us-description">
-                                We are happy to satisfy your home renovation projects across South Jersey, from Mercer to Cape May.
+                            <div class="p about-us-description text-bare">
+                                We are happy to satisfy your home renovation projects across Southern New Jersey, from Mercer to Cape May.
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-5 col-12 about-us-row">
-                        <img class="about-us-image drop-shadows" src="Images\Magrann-Job-Img-7.jpg" alt="kitchen remodel image 3">
+                        <img class="about-us-image drop-shadows" src="Images/Job-Photos/bar-room-1.jpg" alt="bar remodel image">
                     </div>
 
                 </div>
@@ -143,9 +185,7 @@
 
                 <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 service-tile-shell">
                     <div class="services-box red-card-border drop-shadows card h-100">
-                        <!-- <div class="service-image-container"> -->
-                            <img class="service-image card-img-top" src="https://freedesignfile.com/upload/2016/06/Simple-blueprint-building-vectors-design-08.jpg" alt="Blueprint image"></img>
-                        <!-- </div> -->
+                            <img class="service-image card-img-top" src="Images/Stock/plan.jpg" alt="Blueprint image"></img>
                         <div class="card-body">
                             <h3 class="service-title card-title">Design and Estimation</h3>
                             <div class="p service-description card-text">Tell us what you're looking for, and what you expect to spend.
@@ -158,9 +198,7 @@
 
                 <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 service-tile-shell">
                     <div class="services-box red-card-border drop-shadows card h-100">
-                        <!-- <div class="service-image-container"> -->
-                            <img class="service-image card-img-top" src="https://organizationalexcellence.virginia.edu/sites/organizationalexcellence.virginia.edu/files/Project%20Management%20Cycle%20Framework%20V2.png" alt="project lifecycle image"></img>
-                        <!-- </div> -->
+                        <img class="service-image card-img-top"  src="Images/Stock/schedule.jpg" alt="schedule image"></img>
                         <div class="card-body">
                             <h3 class="service-title card-title">Project Management</h3>
                             <div class="p service-description card-text">We will locate, schedule, and manage all subcontracting efforts, deliveries,
@@ -172,9 +210,7 @@
 
                 <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 service-tile-shell">
                     <div class="services-box red-card-border drop-shadows card h-100">
-                        <!-- <div class="service-image-container"> -->
-                            <img class="service-image card-img-top" src="https://metromaintenance.info/site_003/wp-content/uploads/2015/02/Construction-cleanup1.jpg" alt="Cleaner image"></img>
-                        <!-- </div> -->
+                        <img class="service-image card-img-top"  src="Images/Stock/clean-up.jpg" alt="Clean up image"></img>
                         <div class="card-body">
                             <h3 class="service-title card-title">Professional Courtesy</h3>
                             <div class="p service-description card-text">Most clients experience little to no interruption of their daily lives.
@@ -188,10 +224,7 @@
 
                 <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 service-tile-shell">
                     <div class="services-box red-card-border drop-shadows card h-100">
-                        <!-- <div class="service-image-container"> -->
-                            <img class="service-image card-img-top" src="https://lh5.googleusercontent.com/proxy/dZkvNfC3qqrJEvWEUIN4qTEcLhjroyRZS1rbmHxsqsyil6lpKoRl6jmepiqv5s0HbqJ51P5Mo9EaZN6vjzilfhyVE3IW0yt4QxN6FWQlyWGPuueN3L56BfiasmT2Kw"
-                                alt="Communication image"></img>
-                        <!-- </div> -->
+                        <img class="service-image card-img-top" src="Images/Stock/communication.jpg" alt="Communication image"></img>
                         <div class="card-body">
                             <h3 class="service-title card-title">Accessibility</h3>
                             <div class="p service-description card-text">We will keep you informed as to the progress and timelines of the project.
@@ -211,16 +244,19 @@
 
         <!-- ======================== CONTACT ======================== -->
         <section class="section-formatting dark-section contact-section" id="contact">
-            <div class="contact-us-container red-card-border text-card-formatting drop-shadows">
-                <h1>Contact Us</h1>
-                <div class="p">Email: Earl@NolteRemodeling.com</div>
-                <div class="p">Phone (Earl): (856) 912-0467</div>
+            <div class="contact-us-container">
+                <img class="contact-us-image drop-shadows" src="Images\Job-Photos\barn-door-format.jpg" alt="barn door image">
+                <div class="contact-us-text">
+                    <h1>Contact Us</h1>
+                    <div class="p">Email:<br>Contact@NolteRemodeling.com</div>
+                    <div class="p">Phone (Earl Nolte):<br>(856) 912-0467</div>
+                </div>
             </div>
         </section>
 
 
         <!-- ======================== WHATS NEW (REMOVE FOR FINAL ITERATION) ======================== -->
-        <hr class="separator">
+        <!-- <hr class="separator">
         <section class="section-formatting dark-section whats-new-section" id="whats-new">
             <div class="whats-new-container red-card-border text-card-formatting drop-shadows">
                 <h1>What's new in this version of the site? </h1>
@@ -260,7 +296,7 @@
                 </ul>
 
             </div>
-        </section>
+        </section> -->
 
     </div>
 
@@ -268,7 +304,8 @@
     <!-- ======================== FOOTER ======================== -->
     <footer class="white-section">
         <h6>Nolte Remodeling Copyright 2020</h6>
-        <h6>NJHIC ABCEasyAs123</h6>
+        <h6>NJHIC 13VH 11074000</h6>
+        <h6>Website by DLB</h6>
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
