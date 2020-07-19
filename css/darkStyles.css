@@ -153,6 +153,14 @@ h6{
     padding-right:4%;
 }
 
+@media (max-width: 1199px) {
+    .about-us-text{
+        width:100%;
+        padding-left:0;
+        padding-right:0;
+    }
+}
+
 .about-us-image{
     max-height:450px;
     max-width:100%;
