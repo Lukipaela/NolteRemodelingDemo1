@@ -144,7 +144,7 @@ h6{
 
 /************************************ ABOUT-US **************************************/
 .about-us-text{
-    width:70%;
+    width:80%;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     /* background-color: var(--whiteTheme); */
@@ -323,6 +323,10 @@ footer{
     font-weight:500;
 }
 
+.subtle-text{
+    font-size: 0.8rem;
+    color:rgb(100, 100, 100);
+}
 /************************************* WHATS NEW **************************************/
 .whats-new-container{
     max-width:90%;
